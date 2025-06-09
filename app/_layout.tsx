@@ -14,10 +14,10 @@ export default function RootLayout() {
           <Tabs.Screen
             name="index"
             options={{
-              title: 'Color Drag/Drop',
-              tabBarLabel: 'Color Drag/Drop',
+              title: 'Meals Drag/Drop',
+              tabBarLabel: 'Meals Drag/Drop',
               tabBarIcon: ({ color, size }) => (
-                <Icon name="water" color={color} size={size} />
+                <Icon name="food" color={color} size={size} />
               ),
             }}
           />
